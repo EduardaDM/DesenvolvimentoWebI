@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tela 3 - Interações Avançadas</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h2>Contador Automático</h2>
+  <p id="contador" class="resultado">0</p>
+
+  <h2>Minhas Comidas Favoritas</h2>
+  <ul>
+    <li onclick="mostrarComida(this)">Pizza</li>
+    <li onclick="mostrarComida(this)">Lasanha</li>
+    <li onclick="mostrarComida(this)">Sushi</li>
+    <li onclick="mostrarComida(this)">Churrasco</li>
+    <li onclick="mostrarComida(this)">Açaí</li>
+  </ul>
+
+  <h2>Div com Hover</h2>
+  <div class="efeito-hover resultado">Passe o mouse aqui</div>
+
+  <h2>Tabela Interativa</h2>
+  <table>
+    <tr>
+      <td onclick="mudarCor(this)">1</td>
+      <td onclick="mudarCor(this)">2</td>
+      <td onclick="mudarCor(this)">3</td>
+    </tr>
+    <tr>
+      <td onclick="mudarCor(this)">4</td>
+      <td onclick="mudarCor(this)">5</td>
+      <td onclick="mudarCor(this)">6</td>
+    </tr>
+    <tr>
+      <td onclick="mudarCor(this)">7</td>
+      <td onclick="mudarCor(this)">8</td>
+      <td onclick="mudarCor(this)">9</td>
+    </tr>
+  </table>
+
+  <div class="botoes">
+    <a href="tela.html"><button>Somar e Comparar</button></a>
+    <a href="tela2.html"><button>Campo Texto</button></a>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
