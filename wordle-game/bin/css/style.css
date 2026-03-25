@@ -1,0 +1,99 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  grid-auto-rows: 60px;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.box {
+  border: 2px solid #ccc;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #000;
+}
+
+.correta {
+  background-color: green;
+  color: white;
+  border: none;
+}
+
+.parcial {
+  background-color: orange;
+  color: white;
+  border: none;
+}
+
+.errada {
+  background-color: gray;
+  color: white;
+  border: none;
+}
+
+.teclado {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tecla {
+  height: 50px;
+  border: none;
+  border-radius: 6px;
+  background-color: #d3d6da;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.tecla:hover {
+  background-color: #bbb;
+}
+
+.reset-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.reset-btn:hover {
+  background-color: #0056b3;
+}
+
+.mensagem {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
